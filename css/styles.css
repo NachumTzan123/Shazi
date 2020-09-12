@@ -1,0 +1,197 @@
+body {
+  text-align: center;
+  background-color: #f8e0c6;
+}
+
+a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #e6a878;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+
+#header {
+  background-color: #9df7f2;
+  padding: 7% 7% 10%;
+  position: relative;
+}
+
+img.top-butterfly-img {
+  position: absolute;
+  width: 2%;
+  transform: rotate(45deg);
+  bottom: 35.5%;
+  left: 60%;
+}
+
+#header h1 {
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+}
+
+#header a:hover {
+  color: white;
+}
+
+.horizontal-flip {
+  transform: scale(-1, 1);
+}
+
+.top-right {
+  text-align: left;
+}
+
+.cart-counter {
+  position: absolute;
+  left: 3.5%;
+  color: white;
+  top: 5%;
+  transform: scale(-1, 1);
+}
+
+.cart-counter:hover {
+  color: blue;
+}
+
+#intro {
+  background-color: #9ce4e2;
+  padding: 7%;
+}
+
+.align-r {
+  text-align: right;
+}
+
+#intro h2 {
+  margin-bottom: 4%;
+  font-size: 3rem;
+}
+
+#intro img {
+  background-color: white;
+  /* border:1px solid; */
+  padding: 5%;
+  padding-top: %;
+  padding-bottom: 11%;
+}
+
+img {
+  padding: 5% 0;
+}
+
+.col {
+  /* border: 1px solid; */
+  padding: 2% 4%;
+}
+
+#merch {
+  padding: 0 5% 0 5%;
+}
+#merch .col-sm-10{
+  padding-bottom: 5%;
+  /* border: 1px solid; */
+}
+/* .hide-div
+{
+  display: none;
+} */
+#merch h2 {
+  font-size: 75px;
+  margin: 5rem auto;
+  color: #e6a878;
+}
+
+#merch form {
+  z-index: 1;
+}
+#merch .row .col-sm-2 {
+position: relative;
+padding: 0;
+/* border: 1px solid; */
+}
+.filter-holder{
+  padding-top: 10%;
+  position:sticky;
+  top: 10%;
+  bottom: 100px;
+  text-align: right;
+}
+.sorters
+{
+  width: 70%;
+}
+.number-input{
+  width: 70%;
+}
+.fas.select-prod {
+  position: absolute;
+  left: 29%;
+  bottom: 25%;
+}
+
+hr {
+  margin: 5% auto;
+  border-style: none;
+  /* border-top-style: dotted; */
+  width: 15%;
+  border-width: 10px;
+}
+
+.merch-img {
+  width: 50%;
+  margin: 1rem;
+  border: 4px solid;
+  border-color: black;
+}
+
+.gold {
+  border-color: gold;
+}
+
+.silver {
+  border-color: silver;
+}
+
+#footer h1 {
+  font-size: 50px;
+  margin-bottom: 3rem;
+}
+
+#footer a {
+  color: white;
+  margin: auto 4rem;
+}
+
+#footer a:hover {
+  color: #9ce4e2;
+}
+
+#support {
+  background-color: #ffdaa9;
+  padding: 5%;
+}
+
+#contact {
+  background-color: #e6a878;
+  padding: 5%;
+}
+
+@media (max-width: 1000px) {
+  .top-butterfly-img {
+    position: absolute;
+    width: 5%;
+    transform: rotate(45deg);
+    bottom: 38%;
+    left: 63%;
+  }
+}
